@@ -1,11 +1,11 @@
 import asyncio
 import logging
 from userbot import userbot
-from pystark import Stark, Message
+from pydark import dark, Message
 from pyrogram.errors import UserAlreadyParticipant, FloodWait
 
 
-@Stark.cmd('delall', description="Delete all messages in a group/channel")
+@dark.cmd('delall', description="Delete all messages in a group/channel")
 async def main_func(bot: Stark, msg: Message):
     if msg.chat.type == "private":
         return
