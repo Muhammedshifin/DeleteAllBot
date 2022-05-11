@@ -7,5 +7,3 @@ ABOUT = "A telegram bot to delete all messages in a group or channel"
 REPO = "DeleteAllBot"
 
 DATABASE_TABLES = ["users"]
-
-STARKBOTS = True
