@@ -1,8 +1,8 @@
-from pystark import Stark
+from pydark import dark
 from userbot import userbot
 
 
 if __name__ == "__main__":
-    bot = Stark()
+    bot = dark()
     userbot.start()
     bot.activate()
